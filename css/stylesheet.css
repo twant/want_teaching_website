@@ -1,0 +1,321 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic);
+/*///////////Header///////////*/
+#header h1{
+  font-family: 'Roboto', sans-serif;
+  font-size : 3em;
+  font-weight:200;
+}
+#header a{
+  font-family: 'Roboto', sans-serif;
+  font-size : 1em;
+  font-weight:200;
+  text-decoration: none;
+  color: #000;}
+
+#secret:hover{
+  text-decoration: none;
+  color:#000;
+}
+#header img{
+  width: 10%;
+  height: 10%;
+  float: left;
+  margin: 10px;
+}
+
+#header{
+  display:inline;
+  z-index: 1;
+}
+
+nav{
+  white-space:pre;
+  padding:0 10%;
+}
+
+/*///////////About/Index/General//////////*/
+#mswant{
+  float:left;
+  width: 100%;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  background: #ddd;
+  padding: 20px 45px 20px;
+  border-style: solid #555;
+  border: 0px 10px 0px 10px;
+  height:100%;
+}
+
+#indent{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.9em;
+  line-height:1.6em;
+  text-indent: 25px;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:2em;
+  text-align: left;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1.5em
+}
+
+a{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1em;
+  text-decoration: none;
+  color: #777
+}
+
+a:hover{
+  font-family: "Roboto";
+  font-weight:400;
+  font-size:1em;
+  text-decoration: none;
+  color: rgb(199, 127, 113);
+}
+
+footer{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.7em;
+  text-decoration: none;
+  text-align: right;
+  color: #777;
+  clear: both;
+}
+
+figcaption{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.8em;
+  text-decoration: none;
+  color: #555
+}
+
+table{
+  width: 100%;
+}
+
+/*///////////Curriculum///////////*/
+
+
+#curriculum p{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.9em;
+  background: #fff;
+  line-height: 1.25em;
+  margin: 2% 3% 0 2%;
+  text-align: center;
+  border: solid #555;
+  color:#444;
+  padding: 0.5%;
+}
+#curriculum p.row-1{
+  font-weight:500;
+  font-size: 1.2em;
+  line-height:1em;
+  height: 2em;
+  color:#111;
+  padding-top:0.5%;
+}
+
+#curriculum .col-1, .col-4{
+  width: 35%;
+  height: 4em;
+}
+
+#curriculum .col-4{
+  padding-top:1.5%;
+}
+
+/*///////////Assignments///////////*/
+
+#assignments p{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:0.9em;
+  background: #fff;
+  line-height: 3em;
+  margin: 10px 0 10px 0;
+  border: solid #555;
+  text-align: center;
+}
+
+#assignments h4{
+  margin: 10px 0 10px 0;
+}
+
+
+.upcoming p{
+  color: #7293c4;
+}
+
+.upcoming a{
+  color: rgb(108,146,159);
+}
+
+.upcoming a:hover{
+  color:#7293c4;
+  font-weight:400;
+}
+
+.overdue p {
+  color: #aa4839 ;
+}
+
+.overdue a {
+  color: rgb(199, 127, 113)
+}
+
+.overdue a:hover{
+  color:#aa4839;
+  font-weight:400;
+}
+
+/*///////////Resources///////////*/
+
+#resources img{
+  width: 100%;
+  height: 6em;
+}
+
+#resources img:hover{
+  width: 100%;
+  height: 6em;
+  border: solid rgb(199, 127, 113);
+}
+
+#resources .col-5 {
+  height: 6.4em;
+  background: #fff;
+  border:solid #555;
+}
+
+#resources p.col-5{
+  padding:0.5% 0 0.5% 0.5%;
+  line-height:1.6em;
+  height:6.4em;
+  font-family: "Roboto";
+}
+/*///////////Contact///////////*/
+
+#contact p{
+  font-family: "Roboto";
+  font-weight:300;
+  font-size:1em;
+  line-height:1em;
+  background: #fff;
+  border:solid #555;
+  height: 3em;
+  text-align: center;
+  padding: 1%;
+}
+
+#contact p input {
+  width: 90%;
+  height: 90%;
+}
+
+#contact p textarea{
+  width: 99%;
+  height: 99%;
+}
+
+#contact #message{
+  height: 8em;
+  border:solid #555;
+}
+
+#contact #submit{
+  float: right;
+  background:rgb(199, 127, 113);
+}
+
+#contact #submit input{
+  background:rgb(199, 127, 113);
+  overflow:scroll;
+}
+
+#contact .col-3{
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+/*///////////LAYOUT///////////*/
+
+/*fixes*/
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Posititoning Classes */
+
+/* column that takes up 1/3 of page */
+.col-1 {
+  width: 32%;
+  margin: 2% 0 2% 2%;
+  float: left;
+}
+
+/*column that takes up 2/3 of page */
+.col-2 {
+  width: 66%;
+  margin: 2% 0 2% 2%;
+  float: left;
+}
+/*column that takes up all of page */
+.col-3 {
+  width: 100%;
+  margin: 2% 0 2% 2%;
+  margin-bottom:;
+  float: left;
+}
+
+/*column that takes up 1/6 of page */
+.col-4 {
+  width: 15%;
+  margin: 2% 0 2% 2%;
+  float:left;
+}
+
+/*column that takes up 1/2 of the page*/
+.col-5 {
+  width: 49%;
+  margin: 2% 0 2% 2%;
+  float:left;
+}
+
+.first {
+margin-left:0%;
+}
+
