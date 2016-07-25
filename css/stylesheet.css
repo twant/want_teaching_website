@@ -1,12 +1,25 @@
+.nav{
+  text-align: center;
+}
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic);
 /*///////////Header///////////*/
+*{
+  font-family: Pacifico, cursive;
+}
+ul{
+  list-style-type: none;
+}
+#header{
+  text-align: center;
+}
 #header h1{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size : 3em;
   font-weight:200;
 }
 #header a{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pacifico', cursive;
   font-size : 1em;
   font-weight:200;
   text-decoration: none;
@@ -17,8 +30,8 @@
   color:#000;
 }
 #header img{
-  width: 10%;
-  height: 10%;
+  height: 8%;
+  width: 8%;
   float: left;
   margin: 10px;
 }
@@ -318,4 +331,3 @@ table{
 .first {
 margin-left:0%;
 }
-
